@@ -2,6 +2,10 @@
 
 Single page application built with React + TypeScript + Vite + Tailwind that renders a table of financial instruments with stable sorting, client-side data fetching, and automated tests.
 
+**Demo**
+
+`https://instruments-dashboard.vercel.app/`
+
 **Setup**
 
 1. Install dependencies: `npm install`
