@@ -1,0 +1,46 @@
+{
+  "name": "instruments-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-jsx-a11y": "^6.10.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-unused-imports": "^4.1.0",
+    "globals": "^15.11.0",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.5.6",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.17",
+    "typescript-eslint": "^8.52.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

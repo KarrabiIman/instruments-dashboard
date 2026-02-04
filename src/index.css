@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+
+  ::selection {
+    background-color: #c7d2fe;
+  }
+}
+
+@layer components {
+  .card-surface {
+    @apply rounded-2xl border border-slate-200 bg-white/80 shadow-sm backdrop-blur;
+  }
+}
