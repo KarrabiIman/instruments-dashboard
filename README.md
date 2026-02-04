@@ -4,7 +4,7 @@ Single page application built with React + TypeScript + Vite + Tailwind that ren
 
 **Demo**
 
-`https://instruments-dashboard.vercel.app/`
+[instruments-dashboard.vercel.app](https://instruments-dashboard.vercel.app/)
 
 **Setup**
 
